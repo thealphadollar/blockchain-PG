@@ -216,7 +216,7 @@
           $("#generate_transaction").click(function () {
 
             $.ajax({
-              url: "/generate/transaction",
+              url: "/transaction/create",
               type: "POST",
               dataType : 'json',
               data: $('#transaction_form').serialize(),
